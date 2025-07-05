@@ -2,19 +2,21 @@ using UnityEngine;
 
 public class DestroyEnemies : MonoBehaviour
 {
-    bool miss = false;
+    bool hit = false;
     private void Start()
     {
-        Invoke("AutoDestroy", 2.5f);
+        Invoke("AutoDestroy", 1.3f);
     }
     void OnMouseDown()
     {
         ScoreManager.instance.AddScore();
+        hit = true;
         //Debug.Log("Hit");
-        Destroy(gameObject,0f);
+        Destroy(gameObject);
     }
     void AutoDestroy()
     {
+        if (!hit) ScoreManager.instance.SubtractScore();
         Destroy(gameObject);
     }
 }
