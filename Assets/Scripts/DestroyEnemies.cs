@@ -6,9 +6,9 @@ public class DestroyEnemies : MonoBehaviour
     {
         Destroy(gameObject, 1.5f);
     }
-    private void OnMouseDown()
+    void OnMouseDown()
     {
         Debug.Log("Hit");
-        Destroy(gameObject);
+        Destroy(gameObject,0f);
     }
 }
