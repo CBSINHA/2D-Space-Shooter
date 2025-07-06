@@ -3,12 +3,13 @@ using UnityEngine.UI;
 public class ScoreManager : MonoBehaviour
 {
     public static ScoreManager instance;
+    public GameObject WinPanel;
     private void Awake()
     {
         if (instance == null) instance = this;
     }
     [SerializeField] Text ScoreText;
-    int score=0;
+    [HideInInspector]public int score=0;
     public void AddScore()
     {
         score+=5;

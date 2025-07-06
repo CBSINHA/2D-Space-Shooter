@@ -7,6 +7,10 @@ public class Spawn : MonoBehaviour
     {
         InvokeRepeating("InstantiateEnemy", 1f, 1f);
     }
+    private void Update()
+    {
+        if (ScoreManager.instance.score >= 50) { CancelInvoke("InstantiateEnemy"); ScoreManager.instance.WinPanel.SetActive(true); }
+    }
     void InstantiateEnemy()
     {
         float x = Random.Range(-20.3f,20.3f);
