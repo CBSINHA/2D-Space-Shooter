@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Intromanager : MonoBehaviour
@@ -11,5 +12,10 @@ public class Intromanager : MonoBehaviour
     {
         Spawn.instance.Paida();
         UICanvas.SetActive(false);
+    }
+    public void QuitGame()
+    {
+        Debug.Log("Application is quitting.........");
+        Application.Quit();
     }
 }

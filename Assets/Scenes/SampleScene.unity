@@ -488,7 +488,7 @@ GameObject:
   - component: {fileID: 560231428}
   - component: {fileID: 560231427}
   m_Layer: 5
-  m_Name: OPTIONS
+  m_Name: Quit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -511,8 +511,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 520, y: -15}
-  m_SizeDelta: {x: 230, y: 53.5}
+  m_AnchoredPosition: {x: 517, y: -15}
+  m_SizeDelta: {x: 210.72, y: 53.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &560231427
 Animator:
@@ -579,7 +579,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 560231429}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 434265668}
+        m_TargetAssemblyTypeName: Intromanager, Assembly-CSharp
+        m_MethodName: QuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &560231429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -593,7 +605,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.92549026, g: 0.14117648, b: 0.14117648, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1009,9 +1021,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'QUIT
-
-'
+  m_Text: INSTRUCTIONS
 --- !u!222 &1232758050
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1274,9 +1284,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'OPTIONS
-
-'
+  m_Text: QUIT
 --- !u!222 &1469847917
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1439,7 +1447,7 @@ GameObject:
   - component: {fileID: 1858832050}
   - component: {fileID: 1858832049}
   m_Layer: 5
-  m_Name: Quit
+  m_Name: Instructions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1530,7 +1538,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1858832051}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 434265668}
+        m_TargetAssemblyTypeName: Intromanager, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1858832051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1544,7 +1564,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9622642, g: 0.14978641, b: 0.14978641, a: 1}
+  m_Color: {r: 0, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
