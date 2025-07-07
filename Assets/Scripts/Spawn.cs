@@ -2,10 +2,15 @@ using UnityEngine;
 
 public class Spawn : MonoBehaviour
 {
+    public static Spawn instance;
     [SerializeField] GameObject EnemyPrefab;
+    private void Awake()
+    {
+        if (instance == null) instance = this;
+    }
     private void Start()
     {
-        InvokeRepeating("InstantiateEnemy", 1f, 1f);
+        Paida();
     }
     private void Update()
     {
@@ -17,5 +22,9 @@ public class Spawn : MonoBehaviour
         float y = Random.Range(-3.7f,3.7f);
         Vector3 pos = new Vector3(x,y,0);
         Instantiate(EnemyPrefab,pos,Quaternion.identity);
+    }
+    void Paida()
+    {
+        InvokeRepeating("InstantiateEnemy", 1f, 1f);
     }
 }
