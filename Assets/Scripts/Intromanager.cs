@@ -2,15 +2,14 @@ using UnityEngine;
 
 public class Intromanager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] GameObject UICanvas;
+    private void Awake()
     {
-        
+        UICanvas.SetActive(true);
     }
-
-    // Update is called once per frame
-    void Update()
+    public void StartGame()
     {
-        
+        Spawn.instance.Paida();
+        UICanvas.SetActive(false);
     }
 }

@@ -8,10 +8,6 @@ public class Spawn : MonoBehaviour
     {
         if (instance == null) instance = this;
     }
-    private void Start()
-    {
-        Paida();
-    }
     private void Update()
     {
         if (ScoreManager.instance.score >= 50) { CancelInvoke("InstantiateEnemy"); ScoreManager.instance.WinPanel.SetActive(true); }
@@ -23,7 +19,7 @@ public class Spawn : MonoBehaviour
         Vector3 pos = new Vector3(x,y,0);
         Instantiate(EnemyPrefab,pos,Quaternion.identity);
     }
-    void Paida()
+    public void Paida()
     {
         InvokeRepeating("InstantiateEnemy", 1f, 1f);
     }
