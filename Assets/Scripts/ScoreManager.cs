@@ -4,6 +4,8 @@ public class ScoreManager : MonoBehaviour
 {
     public static ScoreManager instance;
     public GameObject WinPanel;
+    public GameObject LoosePanel;
+
     private void Awake()
     {
         if (instance == null) instance = this;

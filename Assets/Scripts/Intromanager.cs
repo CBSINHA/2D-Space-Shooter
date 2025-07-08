@@ -12,6 +12,7 @@ public class Intromanager : MonoBehaviour
     public void StartGame()
     {
         Spawn.instance.Paida();
+        Timer.instance.tame();
         UICanvas.SetActive(false);
     }
     public void QuitGame()
