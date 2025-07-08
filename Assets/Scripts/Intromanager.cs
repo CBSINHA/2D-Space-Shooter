@@ -4,6 +4,7 @@ using UnityEngine;
 public class Intromanager : MonoBehaviour
 {
     [SerializeField] GameObject UICanvas;
+    [SerializeField] GameObject InstructionPanel;
     private void Awake()
     {
         UICanvas.SetActive(true);
@@ -17,5 +18,13 @@ public class Intromanager : MonoBehaviour
     {
         Debug.Log("Application is quitting.........");
         Application.Quit();
+    }
+    public void CloseInstructionPanel()
+    {
+        InstructionPanel.SetActive(false);
+    }
+    public void OpenInstructionPanel()
+    {
+        InstructionPanel.SetActive(true);
     }
 }
