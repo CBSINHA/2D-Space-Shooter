@@ -8,6 +8,7 @@ public class Intromanager : MonoBehaviour
     private void Awake()
     {
         UICanvas.SetActive(true);
+        InstructionPanel.SetActive(false);
     }
     public void StartGame()
     {

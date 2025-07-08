@@ -15,6 +15,10 @@ public class Timer : MonoBehaviour
     {
         isRunning = true;
     }
+    public void hasWon()
+    {
+        isRunning = false;
+    }
     void Update()
     {
         if (isRunning)
