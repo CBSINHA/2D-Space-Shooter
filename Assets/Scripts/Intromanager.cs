@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Intromanager : MonoBehaviour
 {
@@ -28,5 +29,9 @@ public class Intromanager : MonoBehaviour
     public void OpenInstructionPanel()
     {
         InstructionPanel.SetActive(true);
+    }
+    public void MainMenu()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

@@ -9,6 +9,7 @@ public class DestroyEnemies : MonoBehaviour
     }
     void OnMouseDown()
     {
+        if (Spawn.instance.isOver) return;
         ScoreManager.instance.AddScore();
         hit = true;
         //Debug.Log("Hit");
@@ -16,6 +17,7 @@ public class DestroyEnemies : MonoBehaviour
     }
     void AutoDestroy()
     {
+        if (Spawn.instance.isOver) return;
         if (!hit) ScoreManager.instance.SubtractScore();
         Destroy(gameObject);
     }

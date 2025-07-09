@@ -4,13 +4,14 @@ public class Spawn : MonoBehaviour
 {
     public static Spawn instance;
     [SerializeField] GameObject EnemyPrefab;
+    public bool isOver = false;
     private void Awake()
     {
         if (instance == null) instance = this;
     }
     private void Update()
     {
-        if (ScoreManager.instance.score >= 50) { CancelInvoke("InstantiateEnemy"); ScoreManager.instance.WinPanel.SetActive(true);Timer.instance.hasWon(); }
+        if (ScoreManager.instance.score >= 50) { CancelInvoke("InstantiateEnemy"); ScoreManager.instance.WinPanel.SetActive(true); isOver = true; Timer.instance.hasWon(); }
     }
     void InstantiateEnemy()
     {

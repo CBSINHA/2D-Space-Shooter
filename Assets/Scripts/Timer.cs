@@ -28,7 +28,7 @@ public class Timer : MonoBehaviour
                 time -= Time.deltaTime;
                 timerText.text = time.ToString("F2");
             }
-            else { ScoreManager.instance.LoosePanel.SetActive(true); Spawn.instance.CancelInvoke("InstantiateEnemy"); }
+            else { ScoreManager.instance.LoosePanel.SetActive(true); Spawn.instance.CancelInvoke("InstantiateEnemy"); Spawn.instance.isOver = true; }
         }
     }
 }
