@@ -9,6 +9,8 @@ public class ScoreManager : MonoBehaviour
     private void Awake()
     {
         if (instance == null) instance = this;
+        WinPanel.SetActive(false);
+        LoosePanel.SetActive(false);
     }
     [SerializeField] Text ScoreText;
     [HideInInspector]public int score=0;
