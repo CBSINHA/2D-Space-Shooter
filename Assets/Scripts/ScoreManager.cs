@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class ScoreManager : MonoBehaviour
 {
     public static ScoreManager instance;
@@ -17,11 +18,15 @@ public class ScoreManager : MonoBehaviour
     public void AddScore()
     {
         score+=5;
-        ScoreText.text = score.ToString()+"/"+;
+        ScoreText.text = score.ToString();
     }
     public void SubtractScore()
     {
         score--;
         ScoreText.text = score.ToString();
+    }
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("Menu");
     }
 }
