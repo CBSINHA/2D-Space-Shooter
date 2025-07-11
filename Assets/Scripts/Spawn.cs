@@ -9,6 +9,10 @@ public class Spawn : MonoBehaviour
     {
         if (instance == null) instance = this;
     }
+    private void Start()
+    {
+        Paida();
+    }
     private void Update()
     {
         if (ScoreManager.instance.score >= 50) { CancelInvoke("InstantiateEnemy"); ScoreManager.instance.WinPanel.SetActive(true); isOver = true; Timer.instance.hasWon(); }

@@ -17,7 +17,7 @@ public class ScoreManager : MonoBehaviour
     public void AddScore()
     {
         score+=5;
-        ScoreText.text = score.ToString();
+        ScoreText.text = score.ToString()+"/"+;
     }
     public void SubtractScore()
     {

@@ -11,6 +11,10 @@ public class Timer : MonoBehaviour
     public float time = 10f;
     [SerializeField] Text timerText;
     bool isRunning = false;
+    private void Start()
+    {
+        tame();
+    }
     public void tame()
     {
         isRunning = true;
@@ -26,7 +30,7 @@ public class Timer : MonoBehaviour
             if (time > 0)
             {
                 time -= Time.deltaTime;
-                timerText.text = time.ToString("F2");
+                timerText.text = time.ToString("F0")+"s";
             }
             else { ScoreManager.instance.LoosePanel.SetActive(true); Spawn.instance.CancelInvoke("InstantiateEnemy"); Spawn.instance.isOver = true; }
         }

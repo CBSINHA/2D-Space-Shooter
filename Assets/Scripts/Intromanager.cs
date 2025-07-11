@@ -13,9 +13,10 @@ public class Intromanager : MonoBehaviour
     }
     public void StartGame()
     {
-        Spawn.instance.Paida();
-        Timer.instance.tame();
-        UICanvas.SetActive(false);
+        Debug.Log("Start game button click");
+        SceneManager.LoadScene("MainScene");
+        //Spawn.instance.Paida();
+        //Timer.instance.tame();
     }
     public void QuitGame()
     {
@@ -25,13 +26,16 @@ public class Intromanager : MonoBehaviour
     public void CloseInstructionPanel()
     {
         InstructionPanel.SetActive(false);
+        Debug.Log("Close instruction panel button click");
     }
     public void OpenInstructionPanel()
     {
         InstructionPanel.SetActive(true);
+        Debug.Log("Open instruction panel button click");
     }
     public void MainMenu()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Debug.Log("Main Menu button click");
     }
 }
