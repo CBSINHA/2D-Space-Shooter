@@ -199,6 +199,20 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OpenInstructionPanel
       objectReference: {fileID: 0}
+    - target: {fileID: 3195046689129242315, guid: a8702b740041dcd4a8d997f612f968ac, type: 3}
+      propertyPath: m_Text
+      value: 'Shoot the aliens before the timer runs out
+
+
+        Timer is displayed
+        on left top of the screen
+
+
+        Right top displays the current level
+        you are on
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 3291542876726262580, guid: a8702b740041dcd4a8d997f612f968ac, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -547,5 +561,5 @@ SceneRoots:
   - {fileID: 1720511452}
   - {fileID: 627338986}
   - {fileID: 1283533110}
-  - {fileID: 1864850938}
   - {fileID: 329286835}
+  - {fileID: 1864850938}

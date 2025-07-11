@@ -7,6 +7,7 @@ public class ScoreManager : MonoBehaviour
     public GameObject WinPanel;
     public GameObject LoosePanel;
     public int target;
+    public Text levelBracket;
 
     private void Awake()
     {
@@ -37,6 +38,15 @@ public class ScoreManager : MonoBehaviour
     }
     public void RestartLevel()
     {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+    public void NextLevel()
+    {
+        LevelManager.instance.level++; 
         SceneManager.LoadScene("MainScene");
+    }
+    public void LevelDetails()
+    {
+        levelBracket.text = LevelManager.instance.level.ToString();
     }
 }
