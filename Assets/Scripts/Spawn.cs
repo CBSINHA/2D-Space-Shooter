@@ -15,7 +15,7 @@ public class Spawn : MonoBehaviour
     }
     private void Update()
     {
-        if (ScoreManager.instance.score >= 50) { CancelInvoke("InstantiateEnemy"); ScoreManager.instance.WinPanel.SetActive(true); isOver = true; Timer.instance.hasWon(); }
+        if (ScoreManager.instance.score >= LevelManager.instance.Goal()) { CancelInvoke("InstantiateEnemy"); ScoreManager.instance.WinPanel.SetActive(true); isOver = true; Timer.instance.hasWon(); }
     }
     void InstantiateEnemy()
     {
@@ -26,6 +26,6 @@ public class Spawn : MonoBehaviour
     }
     public void Paida()
     {
-        InvokeRepeating("InstantiateEnemy", 1f, 1f);
+        InvokeRepeating("InstantiateEnemy", 0, LevelManager.instance.AlienSpawnTime());
     }
 }

@@ -5,7 +5,7 @@ public class DestroyEnemies : MonoBehaviour
     bool hit = false;
     private void Start()
     {
-        Invoke("AutoDestroy", 1.3f);
+        Invoke("AutoDestroy", LevelManager.instance.AlienDespawnTime());
     }
     void OnMouseDown()
     {

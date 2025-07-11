@@ -6,6 +6,7 @@ public class ScoreManager : MonoBehaviour
     public static ScoreManager instance;
     public GameObject WinPanel;
     public GameObject LoosePanel;
+    public int target;
 
     private void Awake()
     {
@@ -15,18 +16,27 @@ public class ScoreManager : MonoBehaviour
     }
     [SerializeField] Text ScoreText;
     [HideInInspector]public int score=0;
+    private void Start()
+    {
+        target = LevelManager.instance.Goal();
+        ScoreText.text = score.ToString() + "/" + target;
+    }
     public void AddScore()
     {
         score+=5;
-        ScoreText.text = score.ToString();
+        ScoreText.text = score.ToString()+"/"+target;
     }
     public void SubtractScore()
     {
         score--;
-        ScoreText.text = score.ToString();
+        ScoreText.text = score.ToString() + "/" + target;
     }
     public void MainMenu()
     {
         SceneManager.LoadScene("Menu");
+    }
+    public void RestartLevel()
+    {
+        SceneManager.LoadScene("MainScene");
     }
 }

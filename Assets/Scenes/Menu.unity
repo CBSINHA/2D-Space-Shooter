@@ -160,14 +160,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: 1
-  CurrentAlienSpawnTime: 0
-  CurrentAlienDespawnTime: 0
-  CurrentLevelCompleteTime: 0
-  DecreaseAlienSpawnTimeBy: 0
-  DecreaseAlienDespawnTimeBy: 0
-  IncreastLevelCompleteTimeBy: 0
-  CurrentGoal: 0
-  IncreaseGoalBy: 0
+  CurrentAlienSpawnTime: 1.5
+  CurrentAlienDespawnTime: 3
+  CurrentLevelCompleteTime: 60
+  DecreaseAlienSpawnTimeBy: 0.1
+  DecreaseAlienDespawnTimeBy: 0.2
+  DecreaseLevelCompleteTimeBy: 5
+  CurrentGoal: 50
+  IncreaseGoalBy: 10
 --- !u!4 &329286835
 Transform:
   m_ObjectHideFlags: 0
