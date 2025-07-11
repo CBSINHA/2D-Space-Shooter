@@ -21,6 +21,7 @@ public class ScoreManager : MonoBehaviour
     {
         target = LevelManager.instance.Goal();
         ScoreText.text = score.ToString() + "/" + target;
+        LevelDetails();
     }
     public void AddScore()
     {

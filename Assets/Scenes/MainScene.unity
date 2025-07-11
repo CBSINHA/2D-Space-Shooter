@@ -770,7 +770,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.051886797, b: 0.9920558, a: 1}
+  m_Color: {r: 1, g: 0.28775358, b: 0.05098039, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1398,6 +1398,7 @@ MonoBehaviour:
   WinPanel: {fileID: 853084509}
   LoosePanel: {fileID: 1937431909}
   target: 0
+  levelBracket: {fileID: 995187441}
   ScoreText: {fileID: 87825869}
   score: 0
 --- !u!114 &1824260894

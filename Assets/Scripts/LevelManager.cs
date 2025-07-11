@@ -30,7 +30,7 @@ public class LevelManager : MonoBehaviour
     }
     public float CurrentLevelTime()
     {
-        return Mathf.Max(15f,CurrentLevelCompleteTime-(level-1)*DecreaseLevelCompleteTimeBy);
+        return Mathf.Max(22f,CurrentLevelCompleteTime-(level-1)*DecreaseLevelCompleteTimeBy);
     }
     public int Goal()
     {

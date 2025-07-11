@@ -8,7 +8,7 @@ public class Timer : MonoBehaviour
     {
         if (instance == null) instance = this;
     }
-    public float time = LevelManager.instance.CurrentLevelTime();
+    public float time;
     [SerializeField] Text timerText;
     bool isRunning = false;
     private void Start()
@@ -17,6 +17,7 @@ public class Timer : MonoBehaviour
     }
     public void tame()
     {
+        time = LevelManager.instance.CurrentLevelTime();
         isRunning = true;
     }
     public void hasWon()

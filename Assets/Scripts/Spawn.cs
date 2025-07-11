@@ -26,6 +26,7 @@ public class Spawn : MonoBehaviour
     }
     public void Paida()
     {
+        CancelInvoke("InstantiateEnemy");
         InvokeRepeating("InstantiateEnemy", 0, LevelManager.instance.AlienSpawnTime());
     }
 }
