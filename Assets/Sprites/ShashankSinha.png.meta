@@ -1,0 +1,1170 @@
+fileFormatVersion: 2
+guid: 2ff7813493f1a8b439ba39894387cd68
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6641018455992869888
+    second: ShashankSinha_0
+  - first:
+      213: -4231910334147333951
+    second: ShashankSinha_1
+  - first:
+      213: -3170382710778259447
+    second: ShashankSinha_2
+  - first:
+      213: -6912590430343601174
+    second: ShashankSinha_3
+  - first:
+      213: 8297098591512639807
+    second: ShashankSinha_4
+  - first:
+      213: 7521891197880543919
+    second: ShashankSinha_5
+  - first:
+      213: 6539150166136491819
+    second: ShashankSinha_6
+  - first:
+      213: -4084307972231508744
+    second: ShashankSinha_7
+  - first:
+      213: 8219679172706935362
+    second: ShashankSinha_8
+  - first:
+      213: -4716648048140797513
+    second: ShashankSinha_9
+  - first:
+      213: -3370880945529341707
+    second: ShashankSinha_10
+  - first:
+      213: 2000124877246649239
+    second: ShashankSinha_11
+  - first:
+      213: -1044901082795590210
+    second: ShashankSinha_12
+  - first:
+      213: -361211846978524605
+    second: ShashankSinha_13
+  - first:
+      213: -7447525666288099838
+    second: ShashankSinha_14
+  - first:
+      213: 1184348815849545520
+    second: ShashankSinha_15
+  - first:
+      213: 5926151135589498412
+    second: ShashankSinha_16
+  - first:
+      213: -8866290953627551548
+    second: ShashankSinha_17
+  - first:
+      213: -7504340654011952826
+    second: ShashankSinha_18
+  - first:
+      213: -8784507855906372319
+    second: ShashankSinha_19
+  - first:
+      213: -2737824902547747728
+    second: ShashankSinha_20
+  - first:
+      213: 3822942545489064621
+    second: ShashankSinha_21
+  - first:
+      213: -6730650212421593729
+    second: ShashankSinha_22
+  - first:
+      213: -3584554506378049868
+    second: ShashankSinha_23
+  - first:
+      213: 28317899719141780
+    second: ShashankSinha_24
+  - first:
+      213: 1491352126829299004
+    second: ShashankSinha_25
+  - first:
+      213: -7618963373516043263
+    second: ShashankSinha_26
+  - first:
+      213: 5773543142354611825
+    second: ShashankSinha_27
+  - first:
+      213: 7235465945915440588
+    second: ShashankSinha_28
+  - first:
+      213: -8541532680236019742
+    second: ShashankSinha_29
+  - first:
+      213: -2027243393483884868
+    second: ShashankSinha_30
+  - first:
+      213: 7298248046830293340
+    second: ShashankSinha_31
+  - first:
+      213: 7310659809446769924
+    second: ShashankSinha_32
+  - first:
+      213: -502478701585524770
+    second: ShashankSinha_33
+  - first:
+      213: -2737590074032401701
+    second: ShashankSinha_34
+  - first:
+      213: -9158353945619542101
+    second: ShashankSinha_35
+  - first:
+      213: 3631179516485177498
+    second: ShashankSinha_36
+  - first:
+      213: -5113126444468268745
+    second: ShashankSinha_37
+  - first:
+      213: -5400764812645094679
+    second: ShashankSinha_38
+  - first:
+      213: -3637939162301635910
+    second: ShashankSinha_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ShashankSinha_0
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 721
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004a440a913a92c50800000000000000
+      internalID: 6641018455992869888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_1
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 733
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c0f7d309fb3545c0800000000000000
+      internalID: -4231910334147333951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_2
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 707
+        width: 216
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9089502d8b98004d0800000000000000
+      internalID: -3170382710778259447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 727
+        width: 542
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3ea99c0ab8110a0800000000000000
+      internalID: -6912590430343601174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_4
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 711
+        width: 165
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3931858537352370800000000000000
+      internalID: 8297098591512639807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_5
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 711
+        width: 194
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faaaec81130236860800000000000000
+      internalID: 7521891197880543919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_6
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 710
+        width: 423
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f80812e6abfba50800000000000000
+      internalID: 6539150166136491819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_7
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 695
+        width: 164
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc48d1f98f9157c0800000000000000
+      internalID: -4084307972231508744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_8
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 709
+        width: 29
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242afd868aa221270800000000000000
+      internalID: 8219679172706935362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_9
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 721
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b9370017991b8eb0800000000000000
+      internalID: -4716648048140797513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_10
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 703
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f83795c3a93831d0800000000000000
+      internalID: -3370880945529341707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_11
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 711
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79355be8afed1cb10800000000000000
+      internalID: 2000124877246649239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_12
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 696
+        width: 124
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd3c865004cf71f0800000000000000
+      internalID: -1044901082795590210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_13
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 559
+        width: 98
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34aae2c2db7bcfaf0800000000000000
+      internalID: -361211846978524605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_14
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 559
+        width: 98
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e1b4d7dd215a890800000000000000
+      internalID: -7447525666288099838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_15
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 559
+        width: 115
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03fddda19f6af6010800000000000000
+      internalID: 1184348815849545520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_16
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 559
+        width: 92
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ef61a4f0bed3250800000000000000
+      internalID: 5926151135589498412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_17
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 559
+        width: 96
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c835c17a5b94f480800000000000000
+      internalID: -8866290953627551548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_18
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 559
+        width: 108
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64158145fe93bd790800000000000000
+      internalID: -7504340654011952826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_19
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 559
+        width: 106
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 125821ab5a8271680800000000000000
+      internalID: -8784507855906372319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_20
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 559
+        width: 134
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c4c6ab1ca410ad0800000000000000
+      internalID: -2737824902547747728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_21
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 623
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da27a948df1dd0530800000000000000
+      internalID: 3822942545489064621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_22
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 630
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f751435da4de792a0800000000000000
+      internalID: -6730650212421593729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_23
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 599
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b68f411baa114ec0800000000000000
+      internalID: -3584554506378049868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_24
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 583
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4996b81dafa946000800000000000000
+      internalID: 28317899719141780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_25
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 331
+        width: 228
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c350faa9bd852b410800000000000000
+      internalID: 1491352126829299004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_26
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 387
+        width: 114
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c4dd4cd21044690800000000000000
+      internalID: -7618963373516043263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_27
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 388
+        width: 41
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e607ff5eebf1050800000000000000
+      internalID: 5773543142354611825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_28
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 387
+        width: 126
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccdb9b251f9896460800000000000000
+      internalID: 7235465945915440588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_29
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 57
+        width: 411
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef44254841667980800000000000000
+      internalID: -8541532680236019742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_30
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 440
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb6b22adfd8cdd3e0800000000000000
+      internalID: -2027243393483884868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_31
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 332
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51120a4ee5984560800000000000000
+      internalID: 7298248046830293340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_32
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 296
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 405bcc7fc5ea47560800000000000000
+      internalID: 7310659809446769924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_33
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 296
+        width: 58
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed79bcc7846d609f0800000000000000
+      internalID: -502478701585524770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_34
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 295
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd2d9a00550220ad0800000000000000
+      internalID: -2737590074032401701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_35
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 295
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bafcc080c9df6e080800000000000000
+      internalID: -9158353945619542101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_36
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 295
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9016cb088a846230800000000000000
+      internalID: 3631179516485177498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_37
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 295
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73110d9d6968a09b0800000000000000
+      internalID: -5113126444468268745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_38
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 88
+        width: 363
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea2cd27401ac05b0800000000000000
+      internalID: -5400764812645094679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShashankSinha_39
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 146
+        width: 99
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab267844b91738dc0800000000000000
+      internalID: -3637939162301635910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ShashankSinha_0: 6641018455992869888
+      ShashankSinha_1: -4231910334147333951
+      ShashankSinha_10: -3370880945529341707
+      ShashankSinha_11: 2000124877246649239
+      ShashankSinha_12: -1044901082795590210
+      ShashankSinha_13: -361211846978524605
+      ShashankSinha_14: -7447525666288099838
+      ShashankSinha_15: 1184348815849545520
+      ShashankSinha_16: 5926151135589498412
+      ShashankSinha_17: -8866290953627551548
+      ShashankSinha_18: -7504340654011952826
+      ShashankSinha_19: -8784507855906372319
+      ShashankSinha_2: -3170382710778259447
+      ShashankSinha_20: -2737824902547747728
+      ShashankSinha_21: 3822942545489064621
+      ShashankSinha_22: -6730650212421593729
+      ShashankSinha_23: -3584554506378049868
+      ShashankSinha_24: 28317899719141780
+      ShashankSinha_25: 1491352126829299004
+      ShashankSinha_26: -7618963373516043263
+      ShashankSinha_27: 5773543142354611825
+      ShashankSinha_28: 7235465945915440588
+      ShashankSinha_29: -8541532680236019742
+      ShashankSinha_3: -6912590430343601174
+      ShashankSinha_30: -2027243393483884868
+      ShashankSinha_31: 7298248046830293340
+      ShashankSinha_32: 7310659809446769924
+      ShashankSinha_33: -502478701585524770
+      ShashankSinha_34: -2737590074032401701
+      ShashankSinha_35: -9158353945619542101
+      ShashankSinha_36: 3631179516485177498
+      ShashankSinha_37: -5113126444468268745
+      ShashankSinha_38: -5400764812645094679
+      ShashankSinha_39: -3637939162301635910
+      ShashankSinha_4: 8297098591512639807
+      ShashankSinha_5: 7521891197880543919
+      ShashankSinha_6: 6539150166136491819
+      ShashankSinha_7: -4084307972231508744
+      ShashankSinha_8: 8219679172706935362
+      ShashankSinha_9: -4716648048140797513
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

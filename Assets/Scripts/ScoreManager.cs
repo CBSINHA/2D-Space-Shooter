@@ -35,6 +35,7 @@ public class ScoreManager : MonoBehaviour
     }
     public void MainMenu()
     {
+        LevelManager.instance.level = 1;
         SceneManager.LoadScene("Menu");
     }
     public void RestartLevel()
