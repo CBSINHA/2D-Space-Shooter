@@ -15,21 +15,25 @@ public class LevelManager : MonoBehaviour
     [Header("Game Options")]
     public int level = 1;
     public float CurrentAlienSpawnTime, CurrentAlienDespawnTime, CurrentLevelCompleteTime;
-    public float DecreaseAlienSpawnTimeBy, DecreaseAlienDespawnTimeBy, IncreastLevelCompleteTimeBy;
+    public float DecreaseAlienSpawnTimeBy, DecreaseAlienDespawnTimeBy, DecreaseLevelCompleteTimeBy;
     public int CurrentGoal;
     public int IncreaseGoalBy;
 
 
     public float AlienSpawnTime()
     {
-        return CurrentAlienSpawnTime - (level-1)*DecreaseAlienSpawnTimeBy;
+        return Mathf.Max(0.4f,CurrentAlienSpawnTime - (level-1)*DecreaseAlienSpawnTimeBy);
     }
     public float AlienDespawnTime()
     {
-        return CurrentAlienDespawnTime - (level - 1) * DecreaseAlienDespawnTimeBy;
+        return Mathf.Max(0.7f,CurrentAlienDespawnTime - (level - 1) * DecreaseAlienDespawnTimeBy);
     }
     public float CurrentLevelTime()
     {
-        return CurrentLevelCompleteTime
+        return Mathf.Max(15f,CurrentLevelCompleteTime-(level-1)*DecreaseLevelCompleteTimeBy);
+    }
+    public int Goal()
+    {
+        return Mathf.Min(200, CurrentGoal + (level - 1) * IncreaseGoalBy);
     }
 }
