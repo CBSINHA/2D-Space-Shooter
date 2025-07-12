@@ -4,10 +4,14 @@ public class Spawn : MonoBehaviour
 {
     public static Spawn instance;
     [SerializeField] GameObject EnemyPrefab;
+    AudioSource audiosource;
+    public AudioClip winMusic;
     public bool isOver = false;
+    public AudioSource bgmSource;
     private void Awake()
     {
         if (instance == null) instance = this;
+        audiosource = GetComponent<AudioSource>();
     }
     private void Start()
     {
@@ -15,8 +19,17 @@ public class Spawn : MonoBehaviour
     }
     private void Update()
     {
-        if (ScoreManager.instance.score >= LevelManager.instance.Goal()) { CancelInvoke("InstantiateEnemy"); ScoreManager.instance.WinPanel.SetActive(true); isOver = true; Timer.instance.hasWon(); }
+        if (!isOver && ScoreManager.instance.score >= LevelManager.instance.Goal())
+        {
+            CancelInvoke("InstantiateEnemy");
+            ScoreManager.instance.WinPanel.SetActive(true);
+            bgmSource.Stop();
+            audiosource.PlayOneShot(winMusic,0.5f);
+            isOver = true;
+            Timer.instance.hasWon();
+        }
     }
+
     void InstantiateEnemy()
     {
         Camera cam = Camera.main;

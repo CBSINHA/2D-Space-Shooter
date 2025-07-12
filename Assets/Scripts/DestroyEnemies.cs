@@ -3,6 +3,7 @@ using UnityEngine;
 public class DestroyEnemies : MonoBehaviour
 {
     bool hit = false;
+    [SerializeField] AudioClip audioClip;
     private void Start()
     {
         Invoke("AutoDestroy", LevelManager.instance.AlienDespawnTime());
@@ -12,9 +13,15 @@ public class DestroyEnemies : MonoBehaviour
         if (Spawn.instance.isOver) return;
         ScoreManager.instance.AddScore();
         hit = true;
-        //Debug.Log("Hit");
+
+        if (audioClip != null)
+        {
+            AudioManager.instance.PlaySFX(audioClip);
+        }
+
         Destroy(gameObject);
     }
+
     void AutoDestroy()
     {
         if (Spawn.instance.isOver) return;

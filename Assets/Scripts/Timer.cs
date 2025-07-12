@@ -4,9 +4,13 @@ using UnityEngine.UI;
 public class Timer : MonoBehaviour
 {
     public static Timer instance;
+    public AudioSource bgmSource;
+    public AudioClip Audioclip;
+    AudioSource Audiosource;
     private void Awake()
     {
         if (instance == null) instance = this;
+        Audiosource = GetComponent<AudioSource>();
     }
     public float time;
     [SerializeField] Text timerText;
@@ -24,6 +28,8 @@ public class Timer : MonoBehaviour
     {
         isRunning = false;
     }
+    bool isOver = false; 
+
     void Update()
     {
         if (isRunning)
@@ -31,9 +37,19 @@ public class Timer : MonoBehaviour
             if (time > 0)
             {
                 time -= Time.deltaTime;
-                timerText.text = time.ToString("F0")+"s";
+                timerText.text = time.ToString("F0") + "s";
             }
-            else { ScoreManager.instance.LoosePanel.SetActive(true); Spawn.instance.CancelInvoke("InstantiateEnemy"); Spawn.instance.isOver = true; }
+            else if (!isOver) 
+            {
+                isOver = true;
+                isRunning = false;
+
+                ScoreManager.instance.LoosePanel.SetActive(true);
+                Spawn.instance.CancelInvoke("InstantiateEnemy");
+                bgmSource.Stop();
+                Audiosource.PlayOneShot(Audioclip, 0.5f); 
+                Spawn.instance.isOver = true;
+            }
         }
     }
 }
