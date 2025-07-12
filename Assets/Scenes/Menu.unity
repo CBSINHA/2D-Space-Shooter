@@ -140,6 +140,7 @@ GameObject:
   m_Component:
   - component: {fileID: 329286835}
   - component: {fileID: 329286834}
+  - component: {fileID: 329286836}
   m_Layer: 0
   m_Name: LevelManagement
   m_TagString: Untagged
@@ -183,6 +184,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &329286836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329286833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 750e7b5fba9869943a4a9f46469521cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorTexture: {fileID: 2800000, guid: 54010a2286b98774d8a67ce422b46c6a, type: 3}
 --- !u!1001 &627338986
 PrefabInstance:
   m_ObjectHideFlags: 0
